@@ -1,0 +1,14 @@
+{
+    "pod": {
+        "awscloudformation": {
+            "AuthRoleName": "pod-pod-20190713154756-authRole",
+            "UnauthRoleArn": "arn:aws:iam::291431863034:role/pod-pod-20190713154756-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::291431863034:role/pod-pod-20190713154756-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "pod-pod-20190713154756-deployment",
+            "UnauthRoleName": "pod-pod-20190713154756-unauthRole",
+            "StackName": "pod-pod-20190713154756",
+            "StackId": "arn:aws:cloudformation:us-east-1:291431863034:stack/pod-pod-20190713154756/4232f350-a5c0-11e9-ba2c-12713880e578"
+        }
+    }
+}

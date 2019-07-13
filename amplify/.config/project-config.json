@@ -1,0 +1,17 @@
+{
+    "projectName": "Pod",
+    "version": "2.0",
+    "frontend": "javascript",
+    "javascript": {
+        "framework": "react-native",
+        "config": {
+            "SourceDir": "/",
+            "DistributionDir": "/",
+            "BuildCommand": "npm run-script build",
+            "StartCommand": "npm run-script build"
+        }
+    },
+    "providers": [
+        "awscloudformation"
+    ]
+}
