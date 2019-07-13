@@ -1,12 +1,13 @@
 # Pod
 
 ## Pre-reqs
-Download Expo: https://docs.expo.io/versions/latest/introduction/installation/
+Download Expo CLI, the iOS simulator, and the Android emulator: https://docs.expo.io/versions/latest/introduction/installation/
 
-## Install dependencies 
+## Setup
+### Install dependencies 
 `yarn`
 
-## Start app 
+### Start app 
 `expo start`
 
 ## Using Amplify
