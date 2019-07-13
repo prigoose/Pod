@@ -5,7 +5,8 @@ import { createStackNavigator, createBottomTabNavigator } from 'react-navigation
 import TabBarIcon from '../components/TabBarIcon';
 import HomeScreen from '../screens/HomeScreen';
 import SearchScreen from '../screens/SearchScreen';
-import SettingsScreen from '../screens/SettingsScreen';
+import NotificationsScreen from '../screens/NotificationsScreen';
+import RecordScreen from '../screens/RecordScreen';
 
 const config = Platform.select({
   web: { headerMode: 'screen' },
@@ -50,7 +51,7 @@ SearchStack.path = '';
 
 const NotificationsStack = createStackNavigator(
   {
-    Settings: SettingsScreen,
+    Settings: NotificationsScreen,
   },
   config
 );
@@ -65,9 +66,9 @@ NotificationsStack.path = '';
 
 const RecordStack = createStackNavigator(
   {
-    Settings: SettingsScreen,
+    Settings: RecordScreen,
   },
-  config
+  {...config, cardStyle: { backgroundColor: 'teal' } },
 );
 
 RecordStack.navigationOptions = {

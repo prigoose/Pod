@@ -11,7 +11,7 @@ export default function SearchScreen() {
 }
 
 SearchScreen.navigationOptions = {
-  title: 'Links',
+  title: 'Search',
 };
 
 const styles = StyleSheet.create({
