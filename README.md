@@ -3,8 +3,9 @@
 ## Pre-reqs
 Download Expo: https://docs.expo.io/versions/latest/introduction/installation/
 
-## Install dependencies 
+## Setup
+### Install dependencies 
 `yarn`
 
-## Start app 
+### Start app 
 `expo start`
